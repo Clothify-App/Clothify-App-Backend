@@ -1,0 +1,13 @@
+{
+  "name": "clothify-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "firebase": "^9.8.1",
+    "stripe": "^9.2.0"
+  }
+}
