@@ -105,7 +105,7 @@ app.get("/success", async (req, res) => {
       email: session_details.metadata.userEmail,
       productsData: session_details.metadata.productDetails,
       payment_status: "PAID",
-      payment_date: Date.now(),
+      payment_date: new Date().toLocaleDateString(),
       amount: session_details.amount_total / 100,
       quantityDetails: session_details.metadata.quantityDetails,
     };
